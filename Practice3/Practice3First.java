@@ -1,0 +1,61 @@
+import stanford.karel.*;
+
+public class Practice3First extends SuperKarel{
+
+	public void run(){
+		putBeeper();
+		move();
+		turnLeft();
+		move();
+		putBeeper();
+		turnRight();
+		move();
+		turnLeft();
+		move();
+		putBeeper();
+		turnRight();
+		move();
+		turnRight();
+		move();
+		move();
+		turnRight();
+		turnRight();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		turnLeft();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		turnLeft();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		turnLeft();
+		move();
+		putBeeper();
+		move();
+		turnLeft();
+		turnLeft();
+		move();
+		move();
+		turnLeft();
+		move();
+		move();
+		turnLeft();
+		}
+}
