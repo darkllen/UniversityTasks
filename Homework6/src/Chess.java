@@ -1,15 +1,12 @@
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
-//Ihor Yankin
 
-//Написати програму, що намалює шахову доску.
-//Використати: константи, цикли.
 
 public class Chess extends GraphicsProgram {
 
-	private static final double NUMBER_OF_CELLS = 70;
-	private static final double NUMBER_OF_ROWS = 120;
+	private static final double NUMBER_OF_CELLS = 10;
+	private static final double NUMBER_OF_ROWS = 1;
 	private static final int SIZE_X = 900;
 	private static final int SIZE_Y = 900;
 

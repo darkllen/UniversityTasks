@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org-netbeans-swing-outline">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/org-netbeans-swing-outline.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

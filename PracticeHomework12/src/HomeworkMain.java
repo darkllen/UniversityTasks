@@ -67,12 +67,12 @@ public class HomeworkMain extends ConsoleProgram {
                 }else countY++;
             }
         }
-        if (countY==str.length()){
+        if (countY>1){
             count++;
         }
 
-    } println(count);
-        println(wCount-count);
+    } println("Words number: " +count);
+        println("Numbers number: " +(wCount-count));
     }
 
     /**
@@ -90,7 +90,7 @@ public class HomeworkMain extends ConsoleProgram {
             }
 
         }
-        println(res);
+        println("Line with words from big letter: " + res);
     }
 
     /**
@@ -106,7 +106,7 @@ public class HomeworkMain extends ConsoleProgram {
             }
 
         }
-        println(res);
+        println("Line without useless spaces:" +res);
     }
 
     /**
@@ -126,7 +126,7 @@ public class HomeworkMain extends ConsoleProgram {
                 i--;
             }
         }
-        println(str);
+        println("Line without any symbols: " +str);
     }
 
 }

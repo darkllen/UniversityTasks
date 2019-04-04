@@ -4,21 +4,14 @@ import acm.graphics.GPolygon;
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
-//Ihor Yankin
-
-//Написати програму, що намалює стовпчики з біперів через кожні 50(або інше задане число) пікселів.
-//Кольори біперів чергуються.
-//Висота кожного наступного стовпчика більша за попередню на 2(або інше задане число) біперів. 
-//Розмір біперів 50х50 (або інше задане число).
-
 public class Beepers extends GraphicsProgram {
 	
 	private static final int SIZE = 30;
 	private static final int WIDTH_DISTANCE =10;
 	private static final int HEIGHT_DISTANCE = 10;
-	private static final int INCREASE =-1;
+	private static final int INCREASE =0;
 	private static final int HEIGHT = 900;
-	private static final int START_NUM = 15;
+	private static final int START_NUM = 10;
 	
 	public void run() {
 		if(SIZE==0 || WIDTH_DISTANCE<0 || HEIGHT_DISTANCE < 0) {
@@ -32,7 +25,6 @@ public class Beepers extends GraphicsProgram {
 			incZero();
 	}
 	
-	//Create beeper, with start coordinate of right side x,y
 	public void createBeeper(int x, int y) {
 		double xDest = SIZE;
 		GPolygon beeper = new GPolygon(x,y);
@@ -45,7 +37,7 @@ public class Beepers extends GraphicsProgram {
 		add(beeper);
 	}
 	
-	//create colums when increase>0
+
 	private void incPlus() {
 		int inc = INCREASE;
 		
@@ -72,7 +64,7 @@ public class Beepers extends GraphicsProgram {
 			num+=inc;
 	}
 }
-	//create colums when increase==0
+
 	private void incZero() {
 		
 		int a =SIZE*2+WIDTH_DISTANCE;
@@ -96,8 +88,7 @@ public class Beepers extends GraphicsProgram {
 		}
 	}
 }
-	
-	//create colums when increase<0
+
 	private void incMinus() {
 		int inc = -INCREASE;
 		

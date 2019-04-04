@@ -61,10 +61,16 @@ public class PracticeMain extends ConsoleProgram {
             char ch = str.charAt(0);
             if (ch>=48 && ch<=57){
                 println(ch +" is a number");
+                println(ch +" isn't a small letter");
+                println(ch +" isn't a big letter");
             }else if (ch>=65 && ch<=90){
+                println(ch +" isn't a number");
+                println(ch +" isn't a small letter");
                 println(ch + " is a big letter");
             }else if (ch>=97 && ch<=122){
+                println(ch +" isn't a number");
                 println(ch + "  is a small letter");
+                println(ch + " isn't a big letter");
             }else println(ch +" isn't a letter or a number");
 
     }
@@ -200,10 +206,15 @@ public class PracticeMain extends ConsoleProgram {
             } else      if (str.contains("/")){
                 String s = str.substring(0,str.indexOf('/'));
                 String a = str.substring(str.indexOf('/')+1,str.length());
+                if (a.matches("0")){
+                    println("impossible statement");
+                    return;
+                }
                 double res = Double.parseDouble(s)/Double.parseDouble(a);
                 println(res);
             }
         }catch (Exception e){
+            println("impossible statement");
             return;
         }
 
