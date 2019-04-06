@@ -16,11 +16,12 @@ public class Main {
 
             List<Word> myList = new MyWordList();
 
+            System.out.println("ss");
             for (File f: files) {
                 collectionSize += f.length();
                 Analys.fileAnalys(f,myList);
             }
-
+            System.out.println("ss");
             wordsNumber = myList.size();
 
             myList.sort(Comparator.comparing(Word::getName));

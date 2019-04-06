@@ -11,13 +11,14 @@ public abstract class Analys {
 
 
     public static List<Word> fileAnalys( File file, List<Word> words) throws IOException {
-        Reader r = new BufferedReader(new InputStreamReader(new FileInputStream(file), Charset.forName("cp1251")));
+        BufferedReader r = new BufferedReader(new InputStreamReader(new FileInputStream(file), Charset.forName("cp1251")));
         StreamTokenizer tokenizer = new StreamTokenizer(r); Analys.tokenizerInit(tokenizer);
 
         while (tokenizer.nextToken()!=StreamTokenizer.TT_EOF){
             if (Analys.checkForWords(tokenizer)){
-                if (words.contains(tokenizer.sval))
-                   ((MyWordList)words).getWord(tokenizer.sval).setNewValue(file.getName());
+                if (words.contains(tokenizer.sval)){
+                    ((MyWordList)words).getWord(tokenizer.sval).setNewValue(file.getName());
+                }
                 else {
                     Word word = new Word(tokenizer.sval);
                     word.setNewValue(file.getName());

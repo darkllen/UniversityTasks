@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.atomic.AtomicReference;
 
 public class MyWordList extends ArrayList {
 
