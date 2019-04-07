@@ -1,8 +1,9 @@
+import Output.MainFrame;
 import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
-import java.util.Comparator;
-import java.util.List;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -11,22 +12,23 @@ public class Main {
 
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setMultiSelectionEnabled(true);
+        fileChooser.setCurrentDirectory(new File("C:\\Users\\yanki\\OneDrive"));
         if (fileChooser.showDialog(null, "Choose your file") == JFileChooser.APPROVE_OPTION) {
             File[] files = fileChooser.getSelectedFiles();
 
-            List<Word> myList = new MyWordList();
+            HashMap myList = new HashMap();
 
-            System.out.println("ss");
             for (File f: files) {
                 collectionSize += f.length();
                 Analys.fileAnalys(f,myList);
             }
-            System.out.println("ss");
             wordsNumber = myList.size();
 
-            myList.sort(Comparator.comparing(Word::getName));
+            ArrayList arrayList = new ArrayList();
+            arrayList.addAll(myList.values());
 
-            Analys.writeToFile(myList.toString(), wordsNumber, collectionSize);
+            long size =  Analys.writeToFile(myList.values().toString().replaceAll(", ", ""), wordsNumber, collectionSize);
+            new MainFrame(arrayList, wordsNumber, collectionSize, size);
         }
     }
 }

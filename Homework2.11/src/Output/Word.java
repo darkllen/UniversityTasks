@@ -1,22 +1,22 @@
+package Output;
+
 import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
-import java.util.SortedMap;
+
 
 public class Word {
+    int sum = 0;
     private String name;
     private HashMap<String, Integer> hashMap = new HashMap();
-
-    public Word(String name) {
-
-        this.name = name;
-    }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public HashMap<String, Integer> getHashMap() {
+        return hashMap;
+    }
+
+    public Word(String name) {
         this.name = name;
     }
 
@@ -24,26 +24,27 @@ public class Word {
         if (!hashMap.containsKey(doc))
         hashMap.put(doc,1);
         else hashMap.put(doc, hashMap.get(doc)+1);
+        sum++;
     }
     @Override
     public boolean equals(Object o) {
+        try{
         if (this == o) return true;
         if (o == null) return false;
         String word =  (String) o;
-        return name.equals(word);
+        return name.equals(word);}
+        catch (ClassCastException e){
+            return name.equals(((Word)o).name);
+        }
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(name);
-    }
-
+    String syst = System.getProperty("line.separator");
     @Override
     public String toString() {
-        final String[] res = {name + " :" + System.getProperty("line.separator")};
+        final String[] res = {name + " :" + syst};
         hashMap.forEach((key, object)->{
-            res[0] = res[0] + " " + key + " : " + object + System.getProperty("line.separator");
+            res[0] = res[0] + " " + key + " : " + object + syst;
         });
-        return res[0] + System.getProperty("line.separator");
+        return res[0] + syst;
     }
 }
