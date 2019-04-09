@@ -23,7 +23,6 @@ public abstract class Analys {
 
         while (tokenizer.nextToken()!=StreamTokenizer.TT_EOF){
             if (Analys.checkForWords(tokenizer)){
-
                 if (words.get(tokenizer.sval.toLowerCase())!=null){
                     ((Word)words.get(tokenizer.sval.toLowerCase())).setNewValue(file.getName());
                 }

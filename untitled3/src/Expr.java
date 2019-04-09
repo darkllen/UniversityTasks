@@ -1,3 +1,6 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Expr {
     Letter input; char next;
 
@@ -32,12 +35,77 @@ public class Expr {
 
     public Integer evalPrior(String word){
         if (!test(word))return null;
-        while (word.contains("*")){
-            int a = Character.getNumericValue(word.charAt(word.indexOf("*")-1));
-            int b = Character.getNumericValue(word.charAt(word.indexOf("*")+1));
-            word =word.substring(0,word.indexOf("*")-1) +(a*b) + word.substring(word.indexOf("*")+2);
+        int tenNum = 0;
+        int tenNum2 = 0;
+        String regexp = "(\\((\\d*[+\\-*]?\\d*)*\\))";
+        Pattern pattern = Pattern.compile(regexp);
+        while (word.replaceAll(regexp,"").length()!=word.length()){
+            Matcher matcher = pattern.matcher(word);
+            while (matcher.find(tenNum)){
+                tenNum++;
+            }
+            tenNum2=tenNum;
+            while (word.charAt(tenNum2)!=')'){
+                tenNum2++;
+            }
+            String temp = word.substring(tenNum,tenNum2);
+
+            int y = 1;
+            int y2 = 1;
+            while (temp.contains("*")){
+                try {
+                    while (Character.getNumericValue(temp.charAt(temp.indexOf("*")-y))>=0&&Character.getNumericValue(temp.charAt(temp.indexOf("*")-y))<=9){
+                        y++;
+                    }
+                    y--;
+                }catch (IndexOutOfBoundsException e){
+                    y--;
+                }
+                int a = Integer.parseInt(temp.substring(temp.indexOf("*")-y,temp.indexOf("*")));
+                try {
+                    while (Character.getNumericValue(temp.charAt(temp.indexOf("*")+y2))>=0&&Character.getNumericValue(temp.charAt(temp.indexOf("*")+y2))<=9){
+                        y2++;
+                    }
+                } catch (IndexOutOfBoundsException e){
+
+                }
+
+                int b = Integer.parseInt(temp.substring(temp.indexOf("*")+1,temp.indexOf("*")+y2));
+
+                temp =temp.substring(0,temp.indexOf("*")-y) +a*b + temp.substring(temp.indexOf("*")+y2);
+
+                y=1;
+                y2=1;
+            }
+            word = word.substring(0,tenNum-1) + evalLeft(temp) + word.substring(tenNum2+1);
+            tenNum=0;
         }
         return evalLeft(word);
+                /*while (word.contains("*")){
+            while (Character.getNumericValue(word.charAt(word.indexOf("*")-tenNum))>=0&&Character.getNumericValue(word.charAt(word.indexOf("*")-tenNum))<=9){
+                tenNum++;
+            }
+            tenNum--;
+            int a = Integer.parseInt(word.substring(word.indexOf("*")-tenNum,word.indexOf("*")));
+            try {
+                while (Character.getNumericValue(word.charAt(word.indexOf("*")+tenNum2))>=0&&Character.getNumericValue(word.charAt(word.indexOf("*")+tenNum2))<=9){
+                    tenNum2++;
+                }
+            } catch (IndexOutOfBoundsException e){
+
+            }
+
+            int b = Integer.parseInt(word.substring(word.indexOf("*")+1,word.indexOf("*")+tenNum2));
+
+            word =word.substring(0,word.indexOf("*")-tenNum) +"(" +a + "m" + b + ")" + word.substring(word.indexOf("*")+tenNum2);
+
+            tenNum=1;
+            tenNum2=1;
+        }
+        word = word.replaceAll("m","*");
+        word = word.replaceAll("\\(\\(","(");
+        word = word.replaceAll("\\)\\)",")");*/
+
     }
 
 
@@ -63,7 +131,9 @@ public class Expr {
 
     private int TR() throws SyntaxError{
         int res = 0;
-       res = ER();
+        String q = TL();
+        if (q.startsWith("0")&&q.length()>1) throw new SyntaxError("");
+        res = Integer.parseInt(q);
 
         return  BR(res);
     }
@@ -93,29 +163,12 @@ public class Expr {
         return  AR(res);
     }
 
-    private int ER() throws SyntaxError{
-        int res = 0;
-        if(next=='('){
-                next=input.nextChar();
-                res = ER();
-                match(')');
-                return res;
-        }
-        if (next == '1'){
-            next=input.nextChar();
-            return 1;
-        } else if (next=='2'){
-            next=input.nextChar();
-            return 2;
-        }
-        return 0;
-    }
-
-
 
     private int SL() throws SyntaxError{
         int res = 0;
-        res = TL();
+        String q = TL();
+        if (q.startsWith("0")&&q.length()>1) throw new SyntaxError("");
+        res = Integer.parseInt(q);
         return  AL(res);
     }
 
@@ -123,33 +176,84 @@ public class Expr {
         int res = s;
         if(next=='+'){
             next=input.nextChar();
-           res = TL() + s;
+            String q = TL();
+            if (q.startsWith("0")&&q.length()>1) throw new SyntaxError("");
+           res = Integer.parseInt(q) + s;
             return    AL(res);
         } else if (next=='*'){
             next=input.nextChar();
-            res = TL() * s;
+            String q = TL();
+            if (q.startsWith("0")&&q.length()>1) throw new SyntaxError("");
+            res =  Integer.parseInt(q) * s;
             return  AL(res);
         }else if (next=='-'){
             next=input.nextChar();
-            res = s- TL();
+            String q = TL();
+            if (q.startsWith("0")&&q.length()>1) throw new SyntaxError("");
+            res = s-  Integer.parseInt(q);
             return  AL(res);
         }
         return res;
     }
 
-    private int TL() throws SyntaxError{
-        int res = 0;
+
+    private String TL() throws SyntaxError{
+        String  res = "";
         if(next=='('){
             next=input.nextChar();
-            res = SL();
+            res = String.valueOf(SL());
             match(')');
             return res;
         } else if (next == '1'){
             next=input.nextChar();
-            return 1;
+            res="1";
+            res+=TL();
+            return res;
         } else if (next=='2'){
             next=input.nextChar();
-            return 2;
+            res="2";
+            res+=TL();
+            return res;}
+        else if (next=='3'){
+            next=input.nextChar();
+            res="3";
+            res+=TL();
+            return res;
+        }else if (next=='4'){
+            next=input.nextChar();
+            res="4";
+            res+=TL();
+            return res;
+        }else if (next=='5'){
+            next=input.nextChar();
+            res="5";
+            res+=TL();
+            return res;
+        }else if (next=='6'){
+            next=input.nextChar();
+            res="6";
+            res+=TL();
+            return res;
+        }else if (next=='7'){
+            next=input.nextChar();
+            res="7";
+            res+=TL();
+            return res;
+        }else if (next=='8'){
+            next=input.nextChar();
+            res="8";
+            res+=TL();
+            return res;
+        }else if (next=='9'){
+            next=input.nextChar();
+            res="9";
+            res+=TL();
+            return res;
+        }else if (next=='0'){
+            next=input.nextChar();
+            res="0";
+            res+=TL();
+            return res;
         }
         return res;
     }
