@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.IllegalFormatException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -19,16 +20,29 @@ public class Main {
             HashMap myList = new HashMap();
 
             for (File f: files) {
-                collectionSize += f.length();
-                Analys.fileAnalys(f,myList);
+                try {
+                    if (!f.getName().contains("txt")) throw new Exception("impossible not txt type " + f.getName());
+                    if (!f.canRead()) throw new Exception("impossible to read " + f.getName());
+                    if (f.length()==0) throw new Exception("no information in " + f.getName());
+                    collectionSize += f.length();
+                    Analys.fileAnalys(f,myList);
+                } catch (Exception e){
+                    System.out.println(e.getMessage());
+                }
             }
             wordsNumber = myList.size();
-
             ArrayList arrayList = new ArrayList();
             arrayList.addAll(myList.values());
+            try{
+                if (arrayList.size()==0) throw new Exception("no words to record");
+                long size =  Analys.writeToFile(myList.values().toString().replaceAll(", ", ""), wordsNumber, collectionSize);
+                new MainFrame(arrayList, wordsNumber, collectionSize, size);
+            }catch (Exception e){
+                System.out.println(e.getMessage());
+            }
 
-            long size =  Analys.writeToFile(myList.values().toString().replaceAll(", ", ""), wordsNumber, collectionSize);
-            new MainFrame(arrayList, wordsNumber, collectionSize, size);
+
+
         }
     }
 }

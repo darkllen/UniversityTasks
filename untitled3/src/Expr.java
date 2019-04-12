@@ -19,8 +19,6 @@ public class Expr {
     }
 
     public Integer evalRigth(String word){
-        //one more way to do is just to reverse
-       // return evalLeft(new StringBuilder(word).reverse().toString());
         int res = 0;
         input = new Letter(word);
         try{
@@ -33,82 +31,19 @@ public class Expr {
             return null; }
     }
 
-    public Integer evalPrior(String word){
-        if (!test(word))return null;
-        int tenNum = 0;
-        int tenNum2 = 0;
-        String regexp = "(\\((\\d*[+\\-*]?\\d*)*\\))";
-        Pattern pattern = Pattern.compile(regexp);
-        while (word.replaceAll(regexp,"").length()!=word.length()){
-            Matcher matcher = pattern.matcher(word);
-            while (matcher.find(tenNum)){
-                tenNum++;
-            }
-            tenNum2=tenNum;
-            while (word.charAt(tenNum2)!=')'){
-                tenNum2++;
-            }
-            String temp = word.substring(tenNum,tenNum2);
-
-            int y = 1;
-            int y2 = 1;
-            while (temp.contains("*")){
-                try {
-                    while (Character.getNumericValue(temp.charAt(temp.indexOf("*")-y))>=0&&Character.getNumericValue(temp.charAt(temp.indexOf("*")-y))<=9){
-                        y++;
-                    }
-                    y--;
-                }catch (IndexOutOfBoundsException e){
-                    y--;
-                }
-                int a = Integer.parseInt(temp.substring(temp.indexOf("*")-y,temp.indexOf("*")));
-                try {
-                    while (Character.getNumericValue(temp.charAt(temp.indexOf("*")+y2))>=0&&Character.getNumericValue(temp.charAt(temp.indexOf("*")+y2))<=9){
-                        y2++;
-                    }
-                } catch (IndexOutOfBoundsException e){
-
-                }
-
-                int b = Integer.parseInt(temp.substring(temp.indexOf("*")+1,temp.indexOf("*")+y2));
-
-                temp =temp.substring(0,temp.indexOf("*")-y) +a*b + temp.substring(temp.indexOf("*")+y2);
-
-                y=1;
-                y2=1;
-            }
-            word = word.substring(0,tenNum-1) + evalLeft(temp) + word.substring(tenNum2+1);
-            tenNum=0;
+    public Integer evalPrior(String word) {
+        if (!test(word)) return null;
+        int r = 0;
+        input = new Letter(word);
+        try {
+            next = input.nextChar();
+            r = EP();
+            match('$');
+        } catch (SyntaxError ex) {
+            return null;
         }
-        return evalLeft(word);
-                /*while (word.contains("*")){
-            while (Character.getNumericValue(word.charAt(word.indexOf("*")-tenNum))>=0&&Character.getNumericValue(word.charAt(word.indexOf("*")-tenNum))<=9){
-                tenNum++;
-            }
-            tenNum--;
-            int a = Integer.parseInt(word.substring(word.indexOf("*")-tenNum,word.indexOf("*")));
-            try {
-                while (Character.getNumericValue(word.charAt(word.indexOf("*")+tenNum2))>=0&&Character.getNumericValue(word.charAt(word.indexOf("*")+tenNum2))<=9){
-                    tenNum2++;
-                }
-            } catch (IndexOutOfBoundsException e){
-
-            }
-
-            int b = Integer.parseInt(word.substring(word.indexOf("*")+1,word.indexOf("*")+tenNum2));
-
-            word =word.substring(0,word.indexOf("*")-tenNum) +"(" +a + "m" + b + ")" + word.substring(word.indexOf("*")+tenNum2);
-
-            tenNum=1;
-            tenNum2=1;
-        }
-        word = word.replaceAll("m","*");
-        word = word.replaceAll("\\(\\(","(");
-        word = word.replaceAll("\\)\\)",")");*/
-
+        return r;
     }
-
-
 
     public boolean test(String word){
         input = new Letter(word);
@@ -123,6 +58,92 @@ public class Expr {
     }
 
 
+
+    private int EP() throws SyntaxError{  int r = TP(); return AP(r); }
+    private int AP(int op) throws SyntaxError{  int r=op;
+        if(next=='+' ){next=input.nextChar();  r = op+TP();   r = AP(r); }
+        else if (next=='-'){
+            next=input.nextChar();  r = op-TP();   r = AP(r);
+        }
+        return r;
+    }
+    private int TP() throws SyntaxError{
+        String q = FN();
+        if (q.startsWith("0")&&q.length()>1) throw new SyntaxError("");
+        int r = Integer.parseInt(q);
+        return BP(r); }
+    private int BP(int op) throws SyntaxError{ int r=op;
+        if(next=='*' ){next=input.nextChar();
+            String q = FN();
+            if (q.startsWith("0")&&q.length()>1) throw new SyntaxError("");
+            r = op*Integer.parseInt(q);
+        r = BP(r); }
+        return r;
+    }
+
+    private String FN() throws SyntaxError{
+        String  res = "";
+        if(next=='('){
+            next=input.nextChar();
+            res = String.valueOf(EP());
+            match(')');
+            return res;
+        } else if (next == '1'){
+            next=input.nextChar();
+            res="1";
+            res+=FN();
+            return res;
+        } else if (next=='2'){
+            next=input.nextChar();
+            res="2";
+            res+=FN();
+            return res;}
+        else if (next=='3'){
+            next=input.nextChar();
+            res="3";
+            res+=FN();
+            return res;
+        }else if (next=='4'){
+            next=input.nextChar();
+            res="4";
+            res+=FN();
+            return res;
+        }else if (next=='5'){
+            next=input.nextChar();
+            res="5";
+            res+=FN();
+            return res;
+        }else if (next=='6'){
+            next=input.nextChar();
+            res="6";
+            res+=FN();
+            return res;
+        }else if (next=='7'){
+            next=input.nextChar();
+            res="7";
+            res+=FN();
+            return res;
+        }else if (next=='8'){
+            next=input.nextChar();
+            res="8";
+            res+=FN();
+            return res;
+        }else if (next=='9'){
+            next=input.nextChar();
+            res="9";
+            res+=FN();
+            return res;
+        }else if (next=='0'){
+            next=input.nextChar();
+            res="0";
+            res+=FN();
+            return res;
+        }
+        return res;
+    }
+
+
+
     private int SR() throws SyntaxError{
         int res = 0;
         res = TR();
@@ -131,7 +152,7 @@ public class Expr {
 
     private int TR() throws SyntaxError{
         int res = 0;
-        String q = TL();
+        String q = FR();
         if (q.startsWith("0")&&q.length()>1) throw new SyntaxError("");
         res = Integer.parseInt(q);
 
@@ -161,6 +182,67 @@ public class Expr {
             return  BR(res);
         }
         return  AR(res);
+    }
+
+    private String FR() throws SyntaxError{
+        String  res = "";
+        if(next=='('){
+            next=input.nextChar();
+            res = String.valueOf(SR());
+            match(')');
+            return res;
+        } else if (next == '1'){
+            next=input.nextChar();
+            res="1";
+            res+=FR();
+            return res;
+        } else if (next=='2'){
+            next=input.nextChar();
+            res="2";
+            res+=FR();
+            return res;}
+        else if (next=='3'){
+            next=input.nextChar();
+            res="3";
+            res+=FR();
+            return res;
+        }else if (next=='4'){
+            next=input.nextChar();
+            res="4";
+            res+=FR();
+            return res;
+        }else if (next=='5'){
+            next=input.nextChar();
+            res="5";
+            res+=FR();
+            return res;
+        }else if (next=='6'){
+            next=input.nextChar();
+            res="6";
+            res+=FR();
+            return res;
+        }else if (next=='7'){
+            next=input.nextChar();
+            res="7";
+            res+=FR();
+            return res;
+        }else if (next=='8'){
+            next=input.nextChar();
+            res="8";
+            res+=FR();
+            return res;
+        }else if (next=='9'){
+            next=input.nextChar();
+            res="9";
+            res+=FR();
+            return res;
+        }else if (next=='0'){
+            next=input.nextChar();
+            res="0";
+            res+=FR();
+            return res;
+        }
+        return res;
     }
 
 
