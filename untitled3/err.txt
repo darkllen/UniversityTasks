@@ -1,0 +1,10 @@
+апр. 15, 2019 11:21:09 ДП LoggingException <init>
+SEVERE: LoggingException
+	at LoggingExceptions.main(LoggingExceptions.java:27)
+
+Caught LoggingException
+апр. 15, 2019 11:21:09 ДП LoggingException <init>
+SEVERE: LoggingException
+	at LoggingExceptions.main(LoggingExceptions.java:32)
+
+Caught LoggingException

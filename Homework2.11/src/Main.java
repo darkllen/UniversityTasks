@@ -16,7 +16,13 @@ public class Main {
         fileChooser.setCurrentDirectory(new File("C:\\Users\\yanki\\OneDrive"));
         if (fileChooser.showDialog(null, "Choose your file") == JFileChooser.APPROVE_OPTION) {
             File[] files = fileChooser.getSelectedFiles();
+try{
 
+    if (files.length<10)throw new Exception("less files " + files.length);
+}catch(Exception e){
+    System.out.println(e.getMessage());
+    return;
+}
             HashMap myList = new HashMap();
 
             for (File f: files) {
@@ -24,6 +30,7 @@ public class Main {
                     if (!f.getName().contains("txt")) throw new Exception("impossible not txt type " + f.getName());
                     if (!f.canRead()) throw new Exception("impossible to read " + f.getName());
                     if (f.length()==0) throw new Exception("no information in " + f.getName());
+                    if (f.length()<=140000) throw new Exception("too small size " + f.length());
                     collectionSize += f.length();
                     Analys.fileAnalys(f,myList);
                 } catch (Exception e){

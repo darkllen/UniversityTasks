@@ -5,8 +5,9 @@ class Factorial{
     public static int getFactorial(int num) throws FactorialException{
 
         int result=1;
-        if(num<1) throw new FactorialException("The number is less than 1", num);
+        if(num<0) throw new FactorialException("The number is less than 1", num);
 
+        if (num==0) return result;
         for(int i=1; i<=num;i++){
 
             result*=i;
@@ -20,13 +21,14 @@ class Inp{
         Scanner scanner = new Scanner(System.in);
          int a = 0;
          try {
-            String s = scanner.nextLine();
+             String s = scanner.nextLine();
+             try{
+                 a = Integer.parseInt(s);
+             }catch (NumberFormatException e){
+                 throw new IntException("input is string", s);
+             }
+
             if (Character.getNumericValue(s.charAt(s.length()-1))%2!=0)throw new IntException("input not divide by 2",s);
-            try{
-                a = Integer.parseInt(s);
-            }catch (NumberFormatException e){
-                throw new IntException("input is string", s);
-            }
 
             return a;
         } catch (IntException e){
@@ -61,9 +63,7 @@ public class Main{
             System.out.println(result);
         }
         catch(FactorialException ex){
-
             System.out.println(ex.getMessage());
-           // System.out.println(ex.getNumber());
         }
     }
 }

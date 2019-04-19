@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 public class StreamHome {
     public static int sumOdd(IntStream is, int m) {
-        return is.filter(x -> x > 0).filter(x -> x % 2 == 0).filter(x -> x <= m).sum();
+        return is.filter(x -> x <= m).filter(x -> x % 2 == 0).filter(x -> x > 0).sum();
     }
 
 

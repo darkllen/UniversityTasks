@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class Main {
+public class Main<T> {
     public static void main(String[] args) {
          String[] ia = {"aa", "bb"};
 
