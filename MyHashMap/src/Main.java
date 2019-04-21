@@ -1,3 +1,5 @@
+
+
 import java.util.Date;
 import java.util.Random;
 import java.util.logging.Logger;
@@ -5,9 +7,9 @@ import java.util.logging.Logger;
 public class Main {
     public static void main(String[] args) {
 
-        Logger log = Logger.getLogger(Main.class.getName());
+/*        Logger log = Logger.getLogger(Main.class.getName());
         Random random = new Random();
-        int numberOfElements = 10000000;
+        int numberOfElements = 1000000;
 
         //create array of keys
         int[] keys = new int[numberOfElements];
@@ -48,6 +50,12 @@ public class Main {
         myHashMap.put(myKey,newValue);
         log.info("Getting value by key " + myKey);
         long getNewValue = myHashMap.get(myKey);
-        log.info("The resulting value: "+getNewValue);
+        log.info("The resulting value: "+getNewValue);*/
+
+        MyHashMap hashMap = new MyHashMap();
+        hashMap.put(0,2);
+        hashMap.put(1,3);
+        hashMap.put(2,4);
+        System.out.println(hashMap.getByIndex(0));
     }
 }
