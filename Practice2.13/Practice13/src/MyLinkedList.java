@@ -12,6 +12,10 @@ public class MyLinkedList<T> implements Iterable<T> {
         size = 0;
     }
 
+    /**
+     * add element to the last position
+     * @param val
+     */
     public void add(T val) {
         if (val == null) { throw new NullPointerException("The first argument cannot be null."); }
         if (!isEmpty()) {
@@ -26,7 +30,52 @@ public class MyLinkedList<T> implements Iterable<T> {
         size++;
     }
 
+    /**
+     *
+     * @param index from 0 to (size-1)
+     * @param val
+     */
+    public void addByIndex(int index, T val){
+        if (isEmpty() || index>=size || index<0 || val ==null) throw new IllegalStateException("impossible to add.");;
+        if (index==0){
+            Node element = getByIndex(0);
+            Node node = new Node(val, element);
+            first=node;
+        } else {
+            Node element = getByIndex(index);
+            Node elementPrev = getByIndex(index - 1);
+            Node node = new Node(val, element);
+            elementPrev.next = node;
+        }
+    }
 
+
+    /**
+     *
+     * @param index from 0 to (size-1)
+     * @return element value on index
+     */
+    public Node getByIndex(int index)
+    {
+        if (index < 0 || index >= size || isEmpty())
+            throw new IndexOutOfBoundsException("Index: "+index+", Size: "+size);
+
+        Node e = first;
+
+        for (int i = 0; i < index; i++){
+            e = e.next;
+        }
+
+
+        return e;
+    }
+
+
+    /**
+     *
+     * @param index from 0 to (size-1)
+     * @return true if index exist, false if array is empty or if index is not in range
+     */
     public boolean removeByIndex(int index){
         if (isEmpty() || index>size || index<0)return false;
         Node node = first;
@@ -40,6 +89,11 @@ public class MyLinkedList<T> implements Iterable<T> {
         return true;
     }
 
+    /**
+     *
+     * @param val value that need to be deleted
+     * @return true if remove element, false if element doesn`t exist or list is empty
+     */
     public boolean remove(T val) {
         if (isEmpty()) { throw new IllegalStateException("Cannot remove from empty list."); }
         boolean result = false;
@@ -65,26 +119,27 @@ public class MyLinkedList<T> implements Iterable<T> {
         return result;
     }
 
+    /**
+     *
+     * @return number of elements
+     */
     public int size() {
         return size;
     }
 
+    /**
+     *
+     * @return true if empty
+     */
     public boolean isEmpty() {
         return size == 0;
     }
 
-    private class Node {
-        private T value;
-        private Node next;
-
-        public Node(T value, Node next) {
-            this.value = value;
-            this.next = next;
-        }
-    }
-
     public Iterator<T> iterator() { return new MyLinkedListIterator(); }
 
+    /**
+     * iterator from first element to the last
+     */
     private class MyLinkedListIterator implements Iterator<T> {
         private Node current = first;
 
@@ -98,6 +153,24 @@ public class MyLinkedList<T> implements Iterable<T> {
         public boolean hasNext() { return current != null; }
 
         public void remove() { throw new UnsupportedOperationException(); }
+    }
+
+    /**
+     * class for each Element
+     */
+    private class Node {
+        private T value;
+        private Node next;
+
+        public Node(T value, Node next) {
+            this.value = value;
+            this.next = next;
+        }
+
+        @Override
+        public String toString() {
+            return value.toString();
+        }
     }
 
     @Override public String toString() {
