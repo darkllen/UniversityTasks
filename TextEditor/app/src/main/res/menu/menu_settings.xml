@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/B"
+        android:orderInCategory="101"
+        android:title="B"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/U"
+        android:orderInCategory="101"
+        android:title="U"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/I"
+        android:orderInCategory="102"
+        android:title="I"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/Blur"
+        android:orderInCategory="102"
+        android:title="Blur"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/crossed"
+        android:orderInCategory="102"
+        android:title="Crossed"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/MB"
+        android:orderInCategory="102"
+        android:title="-B"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/MU"
+        android:orderInCategory="102"
+        android:title="-U"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/MI"
+        android:orderInCategory="102"
+        android:title="-I"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/MBlur"
+        android:orderInCategory="102"
+        android:title="-Blur"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/Mcrossed"
+        android:orderInCategory="102"
+        android:title="-Crossed"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/upperRegister"
+        android:orderInCategory="102"
+        android:title="Upper register"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/lowerRegister"
+        android:orderInCategory="102"
+        android:title="Lower register"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/foreground"
+        android:orderInCategory="102"
+        android:title="Foreground color"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/background"
+        android:orderInCategory="102"
+        android:title="Background color"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/size"
+        android:orderInCategory="102"
+        android:title="Size"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/Casual"
+        android:orderInCategory="102"
+        android:title="Casual style"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/cursive"
+        android:orderInCategory="102"
+        android:title="Cursive style"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/monospace"
+        android:orderInCategory="102"
+        android:title="Monospace style"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
