@@ -11,9 +11,11 @@ public class PercolationStats {
     public PercolationStats(int N, int T){
         this.T = T;
         results = new double[T];
-
+        // make T number of tests
         for (int i = 0; i<T; i++){
             Percolation test = new Percolation(N);
+
+            //open random cellar while until there will be percolation
             do{
                 int randI = new Random().nextInt(N);
                 int randJ = new Random().nextInt(N);
@@ -28,6 +30,10 @@ public class PercolationStats {
         this.stddev = stddev();
     }
 
+    /**
+     *
+     * @return mean value of all tests
+     */
     private double mean(){
         double sum = 0;
         for (double result : results) {
@@ -36,6 +42,10 @@ public class PercolationStats {
         return sum/T;
     }
 
+    /**
+     *
+     * @return value of possible deviation
+     */
     private double stddev(){
         double sum = 0;
         for (double result : results) {
@@ -44,10 +54,18 @@ public class PercolationStats {
         return Math.sqrt(sum/(T-1));
     }
 
+    /**
+     *
+     * @return low value where 95% confidence level is granted
+     */
     private double getLowConfidenceInterval(){
         return mean-(1.96*stddev/Math.sqrt(T));
     }
 
+    /**
+     *
+     * @return low value where 95% confidence level is granted
+     */
     private double getUpperConfidenceInterval(){
         return mean+(1.96*stddev/Math.sqrt(T));
     }
@@ -61,6 +79,7 @@ public class PercolationStats {
         System.out.println("mean: " +percolationStats.mean);
         System.out.println("stddev: "+percolationStats.stddev);
         System.out.println("95% confidence interval: [" + percolationStats.getLowConfidenceInterval() + ", " + percolationStats.getUpperConfidenceInterval() + "]");
+        System.out.println("                             ");
         System.out.println(stopWatch.prettyPrint());
 
     }
