@@ -1,0 +1,175 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\5a3f863d6367940197ad818ba8735ea4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\7410b7223408b92dbb8fd097d88a938b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\ae942f368303073c8861421b2ae0bcdb\AndroidManifest.xml:2:1-11:12
+MERGED from [com.azeesoft.lib.colorpicker:colorpicker:1.0.8] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\f60438951d0390850936a460f340a45e\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\8ed83267bfed1b57c7f3e3e063492977\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\b0962e695f70c5141c77d0e9f9c8ad4a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\0a76d3d41f6e569b216668b67984829a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\b6ae53a8ede03445a731a8fe3aba07f2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\2647e62290e86090a93a311ba608a491\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\7ae6335cf2bf98e886dc36c8576d27c5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\9e2a452bc343169056af7803ff5a2823\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\fdc4ae6421ecc1ee886bee231243718e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\89e2bb7b72e7d406fb8b8815cb619b18\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\d112cea4171bc354f895457e2c43cb84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\87cf79a1151f2469c47beafc7437207c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\6738026e89537fd2071a4b2669984e27\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\503c213e9470a72fcc15afc2030e216e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\da330b2ca1d7d2e6b7d6b1abe39b37d1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\89163c0ab5b097eeab0e64b285df30a4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\c29a0b63c2c3f3a6eb17d870c68aabb4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\66d3125bc2144c0798463ffa566c75d9\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\ff35710ca568a075b8929f32a8ca7f59\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\599f6e3fd8761a10524d3a3b8caa1ccb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\2e117a52029d48f596dd0b9f08dce489\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\218b6c647ecf473bbb21e73fac471e61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\10b0c8c55387a72be922828e37074858\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\58840dba30843cbecec23c12591c8dcc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\84891b534f7d7d841dc51f749642987b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\79244f69ba2602e408b43555481e2126\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\59791601724555716b06068d182ed1da\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\95b9e51da56668bfbf0de359150abfa5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\fb9fe0f35f6cf8b4dd8119a20a7f51cc\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:4:5-37
+		INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+	xmlns:app
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:3:5-56
+	android:versionName
+		INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:6:5-20:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\5a3f863d6367940197ad818ba8735ea4\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\5a3f863d6367940197ad818ba8735ea4\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\ae942f368303073c8861421b2ae0bcdb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\ae942f368303073c8861421b2ae0bcdb\AndroidManifest.xml:9:5-20
+MERGED from [com.azeesoft.lib.colorpicker:colorpicker:1.0.8] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\f60438951d0390850936a460f340a45e\AndroidManifest.xml:11:5-15:19
+MERGED from [com.azeesoft.lib.colorpicker:colorpicker:1.0.8] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\f60438951d0390850936a460f340a45e\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\c29a0b63c2c3f3a6eb17d870c68aabb4\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\c29a0b63c2c3f3a6eb17d870c68aabb4\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\66d3125bc2144c0798463ffa566c75d9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\66d3125bc2144c0798463ffa566c75d9\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\c29a0b63c2c3f3a6eb17d870c68aabb4\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.texteditor.MainActivity
+ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:14:9-19:20
+	android:name
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\5a3f863d6367940197ad818ba8735ea4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\5a3f863d6367940197ad818ba8735ea4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\7410b7223408b92dbb8fd097d88a938b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\7410b7223408b92dbb8fd097d88a938b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\ae942f368303073c8861421b2ae0bcdb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\ae942f368303073c8861421b2ae0bcdb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.azeesoft.lib.colorpicker:colorpicker:1.0.8] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\f60438951d0390850936a460f340a45e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.azeesoft.lib.colorpicker:colorpicker:1.0.8] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\f60438951d0390850936a460f340a45e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\8ed83267bfed1b57c7f3e3e063492977\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\8ed83267bfed1b57c7f3e3e063492977\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\b0962e695f70c5141c77d0e9f9c8ad4a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\b0962e695f70c5141c77d0e9f9c8ad4a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\0a76d3d41f6e569b216668b67984829a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\0a76d3d41f6e569b216668b67984829a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\b6ae53a8ede03445a731a8fe3aba07f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\b6ae53a8ede03445a731a8fe3aba07f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\2647e62290e86090a93a311ba608a491\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\2647e62290e86090a93a311ba608a491\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\7ae6335cf2bf98e886dc36c8576d27c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\7ae6335cf2bf98e886dc36c8576d27c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\9e2a452bc343169056af7803ff5a2823\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\9e2a452bc343169056af7803ff5a2823\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\fdc4ae6421ecc1ee886bee231243718e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\fdc4ae6421ecc1ee886bee231243718e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\89e2bb7b72e7d406fb8b8815cb619b18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\89e2bb7b72e7d406fb8b8815cb619b18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\d112cea4171bc354f895457e2c43cb84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\d112cea4171bc354f895457e2c43cb84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\87cf79a1151f2469c47beafc7437207c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\87cf79a1151f2469c47beafc7437207c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\6738026e89537fd2071a4b2669984e27\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\6738026e89537fd2071a4b2669984e27\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\503c213e9470a72fcc15afc2030e216e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\503c213e9470a72fcc15afc2030e216e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\da330b2ca1d7d2e6b7d6b1abe39b37d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\da330b2ca1d7d2e6b7d6b1abe39b37d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\89163c0ab5b097eeab0e64b285df30a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\89163c0ab5b097eeab0e64b285df30a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\c29a0b63c2c3f3a6eb17d870c68aabb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\c29a0b63c2c3f3a6eb17d870c68aabb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\66d3125bc2144c0798463ffa566c75d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\66d3125bc2144c0798463ffa566c75d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\ff35710ca568a075b8929f32a8ca7f59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\ff35710ca568a075b8929f32a8ca7f59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\599f6e3fd8761a10524d3a3b8caa1ccb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\599f6e3fd8761a10524d3a3b8caa1ccb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\2e117a52029d48f596dd0b9f08dce489\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\2e117a52029d48f596dd0b9f08dce489\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\218b6c647ecf473bbb21e73fac471e61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\218b6c647ecf473bbb21e73fac471e61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\10b0c8c55387a72be922828e37074858\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\10b0c8c55387a72be922828e37074858\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\58840dba30843cbecec23c12591c8dcc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\58840dba30843cbecec23c12591c8dcc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\84891b534f7d7d841dc51f749642987b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\84891b534f7d7d841dc51f749642987b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\79244f69ba2602e408b43555481e2126\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\79244f69ba2602e408b43555481e2126\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\59791601724555716b06068d182ed1da\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\59791601724555716b06068d182ed1da\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\95b9e51da56668bfbf0de359150abfa5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\95b9e51da56668bfbf0de359150abfa5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\fb9fe0f35f6cf8b4dd8119a20a7f51cc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yanki\.gradle\caches\transforms-2\files-2.1\fb9fe0f35f6cf8b4dd8119a20a7f51cc\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yanki\IdeaProjects\UniversityTasks\UniversityTasks\TextEditor\app\src\main\AndroidManifest.xml
