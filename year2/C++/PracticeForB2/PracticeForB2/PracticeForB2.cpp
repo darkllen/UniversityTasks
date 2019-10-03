@@ -2,10 +2,44 @@
 #include <iostream>
 #include <cassert>
 
+using namespace std;
+
 int main()
 {	
+	int arr[6][6] = {0};
+	int n = 6;
+	int count = 0;
+
+	int start = 9 - (n / 2 % 10);
+	if(n%2==0) start = 10 - (n / 2 % 10);
+	for (int i = 0; i < n / 2; i++) {
+		for (int j = count; j < n-count; j++) {
+			arr[i][j] = start;
+		}
+		for (int j = count; j < n-count; j++) {
+			arr[j][i] = start;
+		}
+		for (int j = count; j < n - count; j++) {
+			arr[n-i-1][j] = start;
+		}
+		for (int j = count; j < n - count; j++) {
+			arr[j][n-i-1] = start;
+		}
+		count++;
+		start++;
+		start = start % 10;
+	}
+	arr[n / 2][n / 2] = 9; 
+
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			cout << arr[i][j] << " ";
+		}
+		cout << ' ' << endl;
+		cout << endl;
+	}
   
-	double a = 1.0;
+	/*double a = 1.0;
 	double b = 1;
 	long count(0);
 	while (b+ a!=b) {
@@ -23,6 +57,6 @@ int main()
 	std::cout << count<< " in float";
 	#ifdef _DEBUG
 	assert(2 == 0);
-	#endif
+	#endif*/
 }
 
