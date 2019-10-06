@@ -2,6 +2,9 @@ body{
 	margin: 0;
 	font-size: 18px;
 }
+body .error{
+	font-size: 40px;
+}
 h1{
 display: block;
 page-break-before: always;
@@ -67,6 +70,10 @@ button {
 	display: none;
 	width: 100%
 }
+.prevPrice{
+	text-decoration: line-through;
+	text-decoration-color: #f00;
+}
 .footer{
 	width: 100%;
 	color:#000;
@@ -76,10 +83,6 @@ button {
 	border-top-width: 1px;
 	text-align: center;
 
-}
-.prevPrice{
-	text-decoration: line-through;
-	text-decoration-color: #f00;
 }
 #siteName{
 	float: right;
@@ -97,9 +100,13 @@ button {
 	display: none;
 }
 
-.header #siteName{
-
+.errorText{
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	position: absolute;
 }
+
 .menuOpen img{
 	padding-top: 20px;
 	height: 50%;
@@ -142,5 +149,8 @@ button {
 		content: " (" attr(href)")";
 	}
 
+
 }
+
+
 
