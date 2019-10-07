@@ -18,5 +18,8 @@
     <ClCompile Include="PracticeForB2.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Рабочий стол\03_Primitive_data_types\Precision\Precision.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
