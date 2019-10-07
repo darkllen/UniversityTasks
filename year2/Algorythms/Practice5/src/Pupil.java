@@ -20,6 +20,10 @@ public class Pupil implements Comparable {
        return this.name.compareTo(((Pupil)o).name);
     }
 
+    @Override
+    public String toString() {
+        return age + " " + averageScore + " " + name + " " + hasScolarship;
+    }
 
     static class CompareByAge implements Comparator{
         @Override

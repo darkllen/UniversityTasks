@@ -1,9 +1,10 @@
 import java.io.*;
 import java.util.Random;
+@SuppressWarnings("ALL")
 public class Main {
 
     public static void main(String[] args) throws IOException {
-       generateNewFile(10);
+        generateNewFile(10);
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("1.txt")));
         int n = Integer.parseInt(br.readLine());
         Pupil pupils[] = new Pupil[n];
@@ -11,9 +12,15 @@ public class Main {
             String[] l = br.readLine().split(" ");
             pupils[i] = new Pupil(Integer.parseInt(l[0]), Double.parseDouble(l[1]), l[2], Boolean.parseBoolean(l[3]));
         }
-        Sorts.mergeSort(pupils, pupils.length, new Pupil.CompareByAge());
-    }
+        Sorts.treeSort(pupils, new Pupil.CompareByAge());
 
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
+        for (int i = 0; i< n; i++){
+            writer.write(pupils[i].toString());
+            writer.newLine();
+        }
+        writer.flush();
+    }
 
     public static void generateNewFile(int length) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter("1.txt"));
