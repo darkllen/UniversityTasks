@@ -21,7 +21,7 @@ public class Pupil implements Comparable {
     }
 
 
-    class CompareByAge implements Comparator{
+    static class CompareByAge implements Comparator{
         @Override
         public int compare(Object o1, Object o2) {
             if (!(o1 instanceof Pupil)) throw new UnsupportedOperationException();
@@ -32,7 +32,7 @@ public class Pupil implements Comparable {
         }
     }
 
-    class CompareByName implements Comparator{
+    static class CompareByName implements Comparator{
         @Override
         public int compare(Object o1, Object o2) {
             if (!(o1 instanceof Pupil)) throw new UnsupportedOperationException();
@@ -41,7 +41,7 @@ public class Pupil implements Comparable {
         }
     }
 
-    class CompareByScore implements Comparator{
+    static  class CompareByScore implements Comparator{
         @Override
         public int compare(Object o1, Object o2) {
             if (!(o1 instanceof Pupil)) throw new UnsupportedOperationException();
@@ -52,7 +52,7 @@ public class Pupil implements Comparable {
         }
     }
 
-    class CompareByScolarship implements Comparator{
+    static class CompareByScolarship implements Comparator{
         @Override
         public int compare(Object o1, Object o2) {
             if (!(o1 instanceof Pupil)) throw new UnsupportedOperationException();

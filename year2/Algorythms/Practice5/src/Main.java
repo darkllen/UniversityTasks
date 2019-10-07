@@ -3,7 +3,7 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-       // generateNewFile(200);
+       generateNewFile(10);
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("1.txt")));
         int n = Integer.parseInt(br.readLine());
         Pupil pupils[] = new Pupil[n];
@@ -11,7 +11,7 @@ public class Main {
             String[] l = br.readLine().split(" ");
             pupils[i] = new Pupil(Integer.parseInt(l[0]), Double.parseDouble(l[1]), l[2], Boolean.parseBoolean(l[3]));
         }
-        Sorts.mergeSort(pupils);
+        Sorts.mergeSort(pupils, pupils.length, new Pupil.CompareByAge());
     }
 
 
