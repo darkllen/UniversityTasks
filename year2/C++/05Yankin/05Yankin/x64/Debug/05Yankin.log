@@ -1,0 +1,3 @@
+﻿  Functions.cpp
+C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\05Yankin\05Yankin\Functions.cpp(48,2): warning C4244:  аргумент: преобразование "double" в "int", возможна потеря данных
+  05Yankin.vcxproj -> C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\05Yankin\05Yankin\x64\Debug\05Yankin.exe

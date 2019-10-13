@@ -1,0 +1,4 @@
+﻿05Yankin.obj : error LNK2019: ссылка на неразрешенный внешний символ "double __cdecl horner(int,double)" (?horner@@YANHN@Z) в функции _main
+    Указание на символы, которые определены и могут подойти:
+      "double __cdecl horner(double,int)" (?horner@@YANNH@Z)
+C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\05Yankin\05Yankin\Debug\05Yankin.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
