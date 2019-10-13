@@ -13,7 +13,7 @@ public class Point implements Comparable<Point> {
     }
 
     public void draw() {
-        StdDraw.filledCircle(x,y, 250);
+        StdDraw.filledCircle(x,y, 10);
     }
 
     public void drawTo(Point that) {

@@ -4,7 +4,7 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        generateNewFile(10);
+        generateNewFile(100);
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("1.txt")));
         int n = Integer.parseInt(br.readLine());
         Pupil pupils[] = new Pupil[n];

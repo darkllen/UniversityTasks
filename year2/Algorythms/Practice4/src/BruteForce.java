@@ -8,7 +8,7 @@ public class BruteForce {
         StdDraw.setXscale(0, 32768);
         StdDraw.setYscale(0, 32768);
         String dir = "C:\\Users\\yanki\\OneDrive\\Documents\\GitHub\\UniversityTasks\\year2\\Algorythms\\Practice4\\src\\Data\\";
-        String name= "grid6x6.txt";
+        String name= "input8.txt";
         Scanner scanner = new Scanner(new File(dir + name));
         ArrayList<Point> points = new ArrayList<>();
         int n = scanner.nextInt();
@@ -16,7 +16,7 @@ public class BruteForce {
             points.add(new Point(scanner.nextInt(),scanner.nextInt()));
         }
 
-        points.forEach(x->x.draw());
+        points.forEach(Point::draw);
 
         for (int i = 0; i< n; i++){
             for (int j = 0; j<n; j++){

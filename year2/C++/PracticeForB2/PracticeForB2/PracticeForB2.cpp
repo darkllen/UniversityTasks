@@ -9,8 +9,9 @@ int main()
 
 	//некоректные переменные в фиббоначи
 	//точность соута 20, что не имеет смысла
-	int arr[6][6] = {0};
-	int n = 6;
+	const int len = 9;
+	int arr[len][len] = {0};
+	int n = len;
 	int count = 0;
 
 	int start = 9 - (n / 2 % 10);
@@ -36,7 +37,7 @@ int main()
 
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
-			cout << arr[i][j] << " ";
+			cout << arr[i][j] << "  ";
 		}
 		cout << ' ' << endl;
 		cout << endl;

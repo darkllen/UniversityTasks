@@ -16,7 +16,7 @@ public class Fast {
             points.add(new Point(scanner.nextInt(),scanner.nextInt()));
         }
 
-        points.forEach(x->x.draw());
+        points.forEach(Point::draw);
 
         ArrayList<Point> copy = (ArrayList<Point>) points.clone();
         for (int i = 0; i< n; i++){
