@@ -1,0 +1,10 @@
+﻿  Functions.cpp
+C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\07Yankin\07Yankin\Functions.cpp(1,10): warning C4067:  непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\07Yankin\07Yankin\Functions.cpp(10,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\07Yankin\07Yankin\Functions.cpp(22,20): warning C4018:  <: несоответствие типов со знаком и без знака
+  Создание кода
+  2 of 3 functions (66.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  07Yankin.vcxproj -> C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\07Yankin\Release\07Yankin.exe

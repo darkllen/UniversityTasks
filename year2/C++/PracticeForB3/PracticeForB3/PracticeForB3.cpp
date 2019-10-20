@@ -1,8 +1,25 @@
-﻿//
-
-#include <iostream>
+﻿#include <iostream>
 #include<vector>
 using namespace std;
+
+int mult(int a, int b) {
+	bool neg(false);
+	if ((a < 0 && b >= 0) || (a >= 0 && b < 0))neg = true;
+	if (a < 0) a = -a;
+	if (b < 0) b = -b;
+
+	int sum(0);
+	while (a != 0) {
+		if ((a << 31) < 0) {
+			for (int i = 0; i < b; i++) {
+				sum = -~sum;
+			}
+		}
+	a = a >> 1;
+	b = b << 1;
+	}
+	return neg ? -sum : sum;
+	}
 void ex1() {
 	const int size = 5;
 	int a(0);
@@ -12,6 +29,7 @@ void ex1() {
 		cin >> a;
 		arr[i] = a;
 	}
+
 	double mean(0);
 	double posMean(0);
 	double negMean(0);
@@ -50,7 +68,9 @@ void ex2() {
 		if (min > arr[i])min = arr[i];
 		if (arr[i] >= a && arr[i] <= b)cout << "el [" << i << "] = " << arr[i] << endl;
 	}
+	if(max<=b)
 	cout << "max = " << max << endl;
+	if(min>=a)
 	cout << "min = " << min << endl;
 
 	delete[] arr;
@@ -97,7 +117,6 @@ void ex3() {
 	cout << "posMean = " << posMean / countPos << endl;
 	cout << "negMean = " << negMean / countNeg << endl;
 }
-
 int* ex4(int* arr1, int* arr2) {
 	int a = arr1[0] * arr2[0] - arr1[1] * arr2[1];
 	int b = arr1[0] * arr2[1] + arr1[1] * arr2[0];
@@ -108,6 +127,11 @@ int* ex4(int* arr1, int* arr2) {
 }
 int main()
 {
+	cout <<mult(-2, 6);
+	// mult(12, 5);
+	//ex1();
+	//ex2();
+	//ex3();
 	int** r = new int*[2];
 	r[0] = new int[2];
 	r[1] = new int[2];
@@ -115,7 +139,5 @@ int main()
 	r[0][1] = 1;
 	r[1][0] = 1;
 	r[1][1] = 1;
-	cout << ex4(r[0], r[1])[1];
-	//ex3();
-	//1
+	//cout << ex4(r[0], r[1])[1];
 }
