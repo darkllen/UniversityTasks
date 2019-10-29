@@ -17,6 +17,7 @@ void powMatrix2x2(Matrix2x2 &matrix, unsigned int n) {
 }
 //standart cycle fibonacci to check result
 int fibonacciCheck(unsigned int n) {
+	if (n == 0)throw n;
 	int i0 = 1;
 	int i1 = 1;
 	for (int i = 2; i < n; i++) {
@@ -42,6 +43,7 @@ int fibonacci(unsigned int n) {
 
 //in our task we have Vector 2 structure, so I used it, but in my opinion it`s unnecessary in this case, because we can just return Matrix2x2._i11
 int fibonacciWithoutVector(unsigned int n) {
+	if (n == 0)throw n;
 	Matrix2x2 fib{ 1,1,1,0 };
 	powMatrix2x2(fib, n - 1);
 #ifdef _DEBUG

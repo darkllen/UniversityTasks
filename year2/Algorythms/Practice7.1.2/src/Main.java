@@ -9,7 +9,7 @@ public class Main {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
 
-     while(bufferedReader.ready()){
+ //    while(bufferedReader.ready()){
             String[] s = bufferedReader.readLine().split(" ");
         LinkedList<Integer> linkedList = new LinkedList<>();
             for (int i = 0; i < s.length; i++) {
@@ -42,7 +42,7 @@ public class Main {
             Collections.sort(linkedList);
             }
 
-        }
+     //   }
         bufferedWriter.flush();
 
     }

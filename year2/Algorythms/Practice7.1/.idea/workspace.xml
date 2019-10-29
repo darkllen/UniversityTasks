@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cd691cd-1a4a-4989-b737-7ece89ea5992" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Practice7.1.2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB2/Release/PracticeForB2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB2/Release/PracticeForB2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/.vs/PracticeForB3/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/.vs/PracticeForB3/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/.vs/PracticeForB3/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/.vs/PracticeForB3/v16/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/Debug/PracticeForB3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/Debug/PracticeForB3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/Debug/PracticeForB3.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/Debug/PracticeForB3.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/Debug/PracticeForB3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/Debug/PracticeForB3.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/PracticeForB3.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/PracticeForB3.lastbuildstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/PracticeForB3.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/vc142.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/Debug/vc142.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/PracticeForB3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/PracticeForB3/PracticeForB3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NIT/Lab2/docs/category2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../NIT/Lab2/docs/category2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NIT/Lab2/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../NIT/Lab2/docs/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NIT/Lab2/docs/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../NIT/Lab2/docs/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NIT/Lab2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../NIT/Lab2/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NIT/Lab2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../NIT/Lab2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NIT/Lab2/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../NIT/Lab2/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NIT/Lab2/src/scss/mainStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../NIT/Lab2/src/scss/mainStyles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NIT/Lab2/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../NIT/Lab2/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice7.1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice7.1.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice7.1.2/out/production/Practice7.1.2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice7.1.2/out/production/Practice7.1.2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice7.1.2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice7.1.2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/ipch/AutoPCH/7f600685423c77c4/FUNCTIONS.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/ipch/AutoPCH/7f600685423c77c4/FUNCTIONS.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Functions.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,9 +61,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="688" />
-    <option name="y" value="177" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="707" />
+    <option name="y" value="88" />
     <option name="width" value="976" />
     <option name="height" value="1056" />
   </component>
@@ -93,7 +73,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,9 +85,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -159,17 +140,17 @@
       <workItem from="1571418390353" duration="6767000" />
       <workItem from="1571578087684" duration="4012000" />
       <workItem from="1571582380798" duration="617000" />
+      <workItem from="1572280665401" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11396000" />
+    <option name="totallyTimeSpent" value="11437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="688" y="177" width="976" height="1056" extended-state="1" />
-    <editor active="true" />
+    <frame x="707" y="88" width="976" height="1056" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24454148" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

@@ -2,8 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f88885a2-e6cf-4f72-923b-50911ffe6b19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice7.1.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Practice7.1.2/META-INF/Practice7.1.2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Practice7.1.2/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice7.1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice7.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice7.1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice7.1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice7.1/Practice7.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice7.1/out/production/Practice7.1/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice7.1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/.vs/06Yankin/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/.vs/06Yankin/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/.vs/06Yankin/v16/ipch/AutoPCH/acbfc18eeef6ab40/06YANKIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/.vs/06Yankin/v16/ipch/AutoPCH/ed8a3e9572637788/06YANKIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/06Yankin.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/06Yankin.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/06Yankin.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/06Yankin.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/06Yankin.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/06Yankin.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/06Yankin.tlog/06Yankin.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/06Yankin.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/06Yankin.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/06Yankin.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/06Yankin.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/06Yankin.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/06Yankin.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/Functions.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/vc142.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Debug/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Functions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/06Yankin/Functions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/Debug/06Yankin.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/Debug/06Yankin.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/06Yankin/Debug/06Yankin.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/ipch/AutoPCH/384bf5a5f42687c7/FUNCTIONS.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/ipch/AutoPCH/7f600685423c77c4/FUNCTIONS.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/ipch/AutoPCH/96bea8b5ce5031c0/07YANKIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/ipch/AutoPCH/abf55e803aa47b74/FUNCTIONS.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/ipch/AutoPCH/b22a1c6770690230/07YANKIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/07Yankin.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/07Yankin.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/07Yankin.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/07Yankin.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/07Yankin.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/07Yankin.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/07Yankin.tlog/07Yankin.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/07Yankin.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/07Yankin.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/07Yankin.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/07Yankin.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/07Yankin.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/07Yankin.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/Functions.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/vc142.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Debug/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Functions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Functions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.tlog/07Yankin.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.tlog/07Yankin.write.1u.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.tlog/link.delete.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/07Yankin.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/Functions.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Release/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Structures.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/Debug/07Yankin.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/Debug/07Yankin.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/Debug/07Yankin.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/Release/07Yankin.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/Release/07Yankin.iobj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/Release/07Yankin.ipdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/07Yankin/Release/07Yankin.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/.vs/PracticeForB3/v16/ipch/AutoPCH/edbb3473b014a88/PRACTICEFORB3.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NIT/Lab2/docs/css/images/948c2697fcb545058bb14a710d70c2d0-bucket.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NIT/Lab2/docs/css/images/9caacfb42d5cfb6bfc0aaa9a5658ba37-bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NIT/Lab2/docs/resources/bucket.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB2/Release/PracticeForB2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB2/Release/PracticeForB2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/.vs/PracticeForB3/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/.vs/PracticeForB3/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB3/.vs/PracticeForB3/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB3/.vs/PracticeForB3/v16/Browse.VC.db" afterDir="false" />
@@ -47,8 +138,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="240">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -115,6 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -170,12 +262,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571582368323</updated>
-      <workItem from="1571582371888" duration="4464000" />
+      <workItem from="1571582371888" duration="5635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4464000" />
+    <option name="totallyTimeSpent" value="5635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -196,7 +288,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -237,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="240">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
