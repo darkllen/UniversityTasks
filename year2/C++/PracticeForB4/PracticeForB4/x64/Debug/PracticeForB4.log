@@ -1,0 +1,5 @@
+﻿  Functions.cpp
+  main.cpp
+  Создание кода...
+C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\PracticeForB4\PracticeForB4\main.cpp(59,14): warning C4101:  n: неиспользованная локальная переменная
+LINK : fatal error LNK1168: не удается открыть C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\PracticeForB4\x64\Debug\PracticeForB4.exe для записи
