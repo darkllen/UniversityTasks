@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f57a20d-b4f1-4883-9223-3e943327ba54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BouncingBalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollisionSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Particle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stdlib.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice7.1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice7.1.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice7.1.2/out/production/Practice7.1.2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice7.1.2/out/production/Practice7.1.2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice7.1.2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice7.1.2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice7.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice7.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/ipch/AutoPCH/7f600685423c77c4/FUNCTIONS.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/07Yankin/.vs/07Yankin/v16/ipch/AutoPCH/7f600685423c77c4/FUNCTIONS.ipch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/07Yankin/07Yankin/Functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice6/out/production/Practice6/ConvexHull.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice6/out/production/Practice6/ConvexHull.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice6/out/production/Practice6/Point$PolarComp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice6/out/production/Practice6/Point$PolarComp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice6/out/production/Practice6/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice6/out/production/Practice6/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice6/src/ConvexHull.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice6/src/ConvexHull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice7/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice7/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice7/BouncingBalls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice7/BouncingBalls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice7/CollisionSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice7/CollisionSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice7/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice7/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice7/META-INF/Practice7.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice7/MinPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice7/MinPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice7/Particle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice7/Particle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice8.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice8.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/BinaryTree/.vs/BinaryTree/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/BinaryTree/.vs/BinaryTree/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/BinaryTree/.vs/BinaryTree/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/BinaryTree/.vs/BinaryTree/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/BinaryTree/.vs/BinaryTree/v16/ipch/AutoPCH/70b96a90b8a358b0/BINARYTREE.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/BinaryTree/.vs/BinaryTree/v16/ipch/AutoPCH/70b96a90b8a358b0/BINARYTREE.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/BinaryTree/.vs/BinaryTree/v16/ipch/AutoPCH/c6ab755557bde48a/MAIN.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/BinaryTree/.vs/BinaryTree/v16/ipch/AutoPCH/c6ab755557bde48a/MAIN.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/BinaryTree/BinaryTree/BinaryTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/BinaryTree/BinaryTree/BinaryTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB4/.vs/PracticeForB4/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB4/.vs/PracticeForB4/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/PracticeForB4/.vs/PracticeForB4/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/PracticeForB4/.vs/PracticeForB4/v16/Browse.VC.db" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,15 +39,37 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ball.java">
+        <entry file="file://$PROJECT_DIR$/src/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="22" />
+            <state relative-caret-position="204">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CollisionSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Particle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+              <folding>
+                <element signature="method#move#0;class#Particle#0" />
+                <element signature="method#bounceOff#0;class#Particle#0" />
               </folding>
             </state>
           </provider>
@@ -52,69 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Particle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-              <folding>
-                <element signature="method#move#0;class#Particle#0" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
-                <element signature="e#1476#1477#0" expanded="true" />
-                <element signature="e#1524#1525#0" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
-                <element signature="method#bounceOff#0;class#Particle#0" />
-                <element signature="e#2215#2216#0" expanded="true" />
-                <element signature="e#2236#2237#0" expanded="true" />
-                <element signature="e#2283#2284#0" expanded="true" />
-                <element signature="e#2302#2303#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Event.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CollisionSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MinPQ.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Random.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="530" column="18" selection-start-line="530" selection-start-column="18" selection-end-line="530" selection-end-column="18" />
-              <folding>
-                <element signature="e#21068#21069#0" expanded="true" />
-                <element signature="e#21142#21143#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -167,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,13 +157,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573137357082" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -242,45 +218,47 @@
       <option name="presentableId" value="Default" />
       <updated>1572280704216</updated>
       <workItem from="1572280708477" duration="5157000" />
+      <workItem from="1573137272695" duration="120000" />
+      <workItem from="1573139949398" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5157000" />
+    <option name="totallyTimeSpent" value="5316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122068234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31744313" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3170189" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +269,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CollisionSystem.java</url>
-          <line>24</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -299,17 +277,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="530" column="18" selection-start-line="530" selection-start-column="18" selection-end-line="530" selection-end-column="18" />
-          <folding>
-            <element signature="e#21068#21069#0" expanded="true" />
-            <element signature="e#21142#21143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Random.java" />
+    <entry file="file://$PROJECT_DIR$/src/MaxPQ.java" />
     <entry file="file://$PROJECT_DIR$/src/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -321,16 +290,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxPQ.java">
+    <entry file="file://$PROJECT_DIR$/Practice7.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxPQ.java">
+    <entry file="file://$PROJECT_DIR$/src/MinPQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -342,49 +318,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CollisionSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Particle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        <state relative-caret-position="544">
+          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding>
             <element signature="method#move#0;class#Particle#0" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
             <element signature="method#bounceOff#0;class#Particle#0" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2236#2237#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
-            <element signature="e#2302#2303#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollisionSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
         </state>
       </provider>
     </entry>
