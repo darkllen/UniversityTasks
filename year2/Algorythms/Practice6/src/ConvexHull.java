@@ -15,9 +15,9 @@ public class ConvexHull {
        // String name = "input8.txt";
        // String name = "input40.txt";
        // String name = "input50.txt";
-       // String name = "input56.txt";
+        String name = "input56.txt";
        // String name = "input100.txt";
-        String name = "input400.txt";
+       // String name = "input400.txt";
        // String name = "rs1423.txt";
         Scanner scanner = new Scanner(new File(dir + name));
         ArrayList<Point> points = new ArrayList<>();
