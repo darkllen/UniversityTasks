@@ -16,8 +16,8 @@ public class Particle{
     }
 
     public void move(double dt){
-        if ((rx + vx*dt < radius) || (rx + vx*dt > 32768)) {vx = -vx;}
-        if ((ry + vy*dt < radius) || (ry + vy*dt > 32768)) { vy = -vy; }
+        //if ((rx + vx*dt < radius) || (rx + vx*dt > 32768)) {vx = -vx;}
+        //if ((ry + vy*dt < radius) || (ry + vy*dt > 32768)) { vy = -vy; }
         rx = rx + vx*dt;
         ry = ry + vy*dt;
     }
@@ -37,11 +37,27 @@ public class Particle{
         if (d < 0) return Double.POSITIVE_INFINITY;
         return -(dvdr + Math.sqrt(d)) / dvdv;
     }
+
     public double timeToHitVerticalWall() {
-        return (1-32768-radius)/vx;
+        // vx=-vx;
+        if(vx>0)
+            return Math.abs((32768-radius-rx)/vx)  ;
+        if(vx<0)
+            return Math.abs((rx-radius)/vx)  ;
+        //if(vx==0)
+        return Double.POSITIVE_INFINITY;
+
+
     }
     public double timeToHitHorizontalWall() {
-        return (1-32768-radius)/vy;
+        //return Math.abs((1-radius-ry)/vy)  ;
+        if(vy>0)
+            return Math.abs((1-radius-ry)/vy)  ;
+        if(vy<0)
+            return Math.abs((ry-radius)/vy)  ;
+        //if(vx==0)
+        return Double.POSITIVE_INFINITY;
+
     }
     public void bounceOff(Particle that) {
         double dx = that.rx - this.rx, dy = that.ry - this.ry;
@@ -59,9 +75,13 @@ public class Particle{
         that.count++;
     }
     public void bounceOffVerticalWall() {
+
         vx= -vx;
+        this.count++;
     }
     public void bounceOffHorizontalWall() {
         vy=-vy;
+        this.count++;
+
     }
 }
