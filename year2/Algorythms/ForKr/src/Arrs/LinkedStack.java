@@ -1,6 +1,8 @@
-package Arrs;
+package ua.com.oka.lection3.Iterators;
 
-public class LinkedStack<Item>{
+import java.util.Iterator;
+
+public class LinkedStack<Item> implements Iterable<Item>{
 	
 	private Node first = null;
 	private int count=0;
@@ -31,6 +33,32 @@ public class LinkedStack<Item>{
 
 	public int size() {
 		return count;
+	}
+
+	@Override
+	public Iterator<Item> iterator() {
+		return new ListIterator();
+	}
+	
+	private class ListIterator implements Iterator<Item>{
+		private Node current = first;
+		@Override
+		public boolean hasNext() {
+			return current!=null;
+		}
+
+		@Override
+		public Item next() {
+			Item item = current.item;
+			current = current.next;
+			return item;
+		}
+
+		@Override
+		public void remove() {
+						
+		}
+		
 	}
 
 }

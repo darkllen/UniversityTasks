@@ -5,6 +5,13 @@ var $ = require("jquery");
 var itemsToBuy = [];
 
 $.ajax({
+	url: "http://193.111.0.203:81/Lab5/api/category/list.php",
+	success: function (data) {
+			console.log(data);
+	}
+});
+
+$.ajax({
 	url: "https://nit.tron.net.ua/api/category/list",
 	success: function (data) {
 

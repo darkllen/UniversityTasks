@@ -1,11 +1,14 @@
-package Arrs;
+package ua.com.oka.lection3.Iterators;
 
-public class ArrayStack<Item>{
+import java.util.Iterator;
+
+public class ArrayStack<Item> implements Iterable<Item>{
 
 	protected Item[] s;
 	protected int n =0;
 	
 	public ArrayStack(){
+		//s = new Item[1]; //оголошення generics масивів заборонена
 		s = (Item[])new Object[1];
 	}
 	
@@ -34,5 +37,30 @@ public class ArrayStack<Item>{
 		for (int i=0;i<n;i++)
 			copy[i]=s[i];
 		s = copy;
+	}
+
+	@Override
+	public Iterator<Item> iterator() {
+		return new ReverseArrayIterator();
+	}
+	
+	private class ReverseArrayIterator implements Iterator<Item>{
+
+		private int i=n;
+		@Override
+		public boolean hasNext() {
+			return i>0;
+		}
+
+		@Override
+		public Item next() {
+			return s[--i];
+		}
+
+		@Override
+		public void remove() {
+			throw new UnsupportedOperationException();
+		}
+		
 	}
 }
