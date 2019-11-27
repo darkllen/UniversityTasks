@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7875a518-83a7-49ed-951d-a6d7c3849149" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ForKr/src/Arrs/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ForKr/src/Arrs/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForKr/src/Arrs/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ForKr/src/Arrs/LinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NIT/Lab4/docs/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../NIT/Lab4/docs/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NIT/Lab4/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../NIT/Lab4/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="7875a518-83a7-49ed-951d-a6d7c3849149" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -250,12 +245,12 @@
       <option name="presentableId" value="Default" />
       <updated>1574466665943</updated>
       <workItem from="1574466668373" duration="11254000" />
-      <workItem from="1574797225600" duration="598000" />
+      <workItem from="1574797225600" duration="630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11852000" />
+    <option name="totallyTimeSpent" value="11884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="197" y="4" width="974" height="1047" extended-state="0" />
