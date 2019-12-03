@@ -1,54 +1,33 @@
 import java.util.Stack;
 
-public class BreadthFirstPaths {
-
+@SuppressWarnings("ALL")
+public class BFS2 {
     private boolean[] marked;
     private int[] edgeTo;
     private int[] distTo;
     private final int s;
-    private  int e;
+    private final int e;
+    int ans;
 
-    public BreadthFirstPaths(Digraph G, int s, int e) {
+    public BFS2(Digraph G, int s, int e) {
         this.s = s;
         this.e = e;
         edgeTo = new int[G.V()];
         marked = new boolean[G.V()];
         distTo = new int[G.V()];
-        bfs(G, s);
-    }
-    public BreadthFirstPaths(Digraph G, int s) {
-        this.s = s;
-        edgeTo = new int[G.V()];
-        marked = new boolean[G.V()];
-        distTo = new int[G.V()];
-        bfs2(G, s);
-    }
-    private void bfs2(Digraph G, int s) {
-        LinkedQueue<Integer> q = new LinkedQueue<>();
-        q.enqueue(s);
-        marked[s] = true;
-        distTo[s] = 0;
-        while (!q.isEmpty()) {
-            int v = q.dequeue();
-            for (int w : G.adj(v)) {
-                if (!marked[w]) {
-                    q.enqueue(w);
-                    marked[w] = true;
-                    edgeTo[w] = v;
-                    distTo[w] = distTo[v] + 1;
-                }
-            }
-        }
+        ans = bfs(G, s, e);
     }
 
-    private void bfs(Digraph G, int s) {
+    private int bfs(Digraph G, int s, int e) {
+
         LinkedQueue<Integer> q = new LinkedQueue<>();
         q.enqueue(s);
         marked[s] = true;
         distTo[s] = 0;
         while (!q.isEmpty()) {
             int v = q.dequeue();
-            if(v == e) return;
+            BreadthFirstPaths b = new BreadthFirstPaths(G, e,v);
+            if(b.hasPathTo(v)) return v;
             for (int w : G.adj(v)) {
                 if (!marked[w]) {
                     q.enqueue(w);
@@ -58,6 +37,7 @@ public class BreadthFirstPaths {
                 }
             }
         }
+        return -1;
     }
 
     public boolean hasPathTo(int v) {
@@ -74,3 +54,4 @@ public class BreadthFirstPaths {
     }
 
 }
+

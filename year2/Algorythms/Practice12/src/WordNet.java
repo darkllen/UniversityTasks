@@ -49,20 +49,27 @@ public class WordNet {
         });
         return i.get();
     }
-    public int distance(String nounA, String nounB){
+    public String getNounById(int n){
 
-        return 0;
+        return syn.get(n).name;
+    }
+    public int distance(String nounA, String nounB){
+    SAP sap = new SAP(digraph);
+
+        return sap.length(getIdByNoun(nounA), getIdByNoun(nounB));
     }
     // синсет що є спільним предком nounA і nounB
 // в найкоршому шляху до предка
     public String sap(String nounA, String nounB){
-        return null;
+        SAP sap = new SAP(digraph);
+        return syn.get(sap.ancestor(getIdByNoun(nounA), getIdByNoun(nounB))).name;
     }
     // тестування
     public static void main(String[] args) throws IOException {
         WordNet wordNet = new WordNet("synsets.txt", "hypernyms.txt");
-        System.out.println(wordNet.isNoun("sunset"));
-        System.out.println(wordNet.distance("alloy metal", "18-karat_gold"));
+        System.out.println(wordNet.isNoun("milk"));
+        System.out.println(wordNet.sap("horse", "zebra"));
+        System.out.println(wordNet.distance("whole unit", "entity"));
     }
 
     class Synset{
