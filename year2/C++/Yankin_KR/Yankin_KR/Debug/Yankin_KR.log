@@ -1,0 +1,4 @@
+﻿  Yankin_KR.cpp
+C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\Yankin_KR\Yankin_KR\Yankin_KR.cpp(118,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\Yankin_KR\Yankin_KR\Yankin_KR.cpp(178,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Yankin_KR.vcxproj -> C:\Users\yanki\OneDrive\Documents\GitHub\UniversityTasks\year2\C++\Yankin_KR\Debug\Yankin_KR.exe
