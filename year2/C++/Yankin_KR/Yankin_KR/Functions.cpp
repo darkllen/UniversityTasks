@@ -1,5 +1,6 @@
 #include <cmath>
 #include <cassert>
+#include <iostream>
 #include "Structurs.h"
 //n = ~n?n:0xFFFFFFFF;  simple to n = n;
 //method is uneffective and unneccessary. Need to show the task was done.
@@ -197,4 +198,13 @@ const Polynomial operator+(const Polynomial& polynomial1, const Polynomial& poly
 #endif // _DEBUG
 
 	return res;
+}
+//operator to show polynom
+std::ostream& operator<< (std::ostream& out, const Polynomial& polynom) {
+	out << polynom._koefs[0] << "*x^" << polynom._power - 1;
+	for (size_t i = 1; i <= polynom._power - 1; ++i) {
+		out << " + " << polynom._koefs[i] << "*x^" << polynom._power - 1 - i;
+	};
+
+	return out;
 }

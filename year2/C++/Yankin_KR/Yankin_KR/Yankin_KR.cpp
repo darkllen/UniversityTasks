@@ -113,6 +113,27 @@ void task5Check() {
 	cout << "------------------------" << endl;
 }
 
+double** createPoints(size_t n) {
+	double** points = new double* [n];
+	for (size_t i = 0; i < n; ++i) {
+		points[i] = new double[4];
+		for (size_t j = 0; j < 4; ++j) {
+			points[i][j] = (double)(rand()) / RAND_MAX * 100+ 1;
+		}
+	}
+	return points;
+}
+
+PointWithMass* createPointFromArray(double** points, size_t n) {
+	PointWithMass* pointsInStruct = new PointWithMass[n];
+	for (size_t i = 0; i < n; ++i) {
+		for (size_t j = 0; j < 4; ++j) {
+		}
+		pointsInStruct[i] = PointWithMass{ points[i][3],points[i][0] ,points[i][1],points[i][2] };
+	}
+	return pointsInStruct;
+}
+
 void task6And7Check() {
 	//check by assuming, that task 6 and task 7 is counting the same value, so  task6(points, len, 'x') = task7(pointsStruct,len,'x') if points values = pointsStruct values;
 	srand(time(NULL));
@@ -122,18 +143,12 @@ void task6And7Check() {
 	//create 4 points with random values from o to 100;
 
 	//create array of arrays
-	double** points = new double* [4];
+	double** points = createPoints(4);
 
 	//create array of structures
-	PointWithMass* pointsInStruct = new PointWithMass[4];
+	PointWithMass* pointsInStruct = createPointFromArray(points, 4);
 
-	for (size_t i = 0; i < 4; ++i) {
-		points[i] = new double[4];
-		for (size_t j = 0; j < 4; ++j) {
-			points[i][j] = (double)(rand()) / RAND_MAX * 100;
-		}
-		pointsInStruct[i] = PointWithMass{ points[i][3],points[i][0] ,points[i][1],points[i][2] };
-	}
+
 	try {
 		cout << "task6(points, 4, 'x') = " << task6(points, 4, 'x') << endl;
 		cout << "task7(pointsInStruct, 4, 'x') = " << task7(pointsInStruct, 4, 'x') << endl;
@@ -143,13 +158,19 @@ void task6And7Check() {
 		cout << "task7(pointsInStruct, 4, 'z') = " << task7(pointsInStruct, 4, 'z') << endl;
 		cout << "change points" << endl;
 
-		//change points values
-		for (size_t i = 0; i < 4; ++i) {
-			for (size_t j = 0; j < 4; ++j) {
-				points[i][j] = (double)(rand()) / RAND_MAX * 100;
-			}
-			pointsInStruct[i] = PointWithMass{ points[i][3],points[i][0] ,points[i][1] ,points[i][2] };
+		delete[]pointsInStruct;
+		for (int i = 0; i < 4; ++i) {
+			delete[]points[i];
 		}
+		delete[] points;
+
+		//create array of arrays
+		points = createPoints(4);
+
+		//create array of structures
+		pointsInStruct = createPointFromArray(points, 4);
+
+
 		cout << "task6(points, 4, 'x') = " << task6(points, 4, 'x') << endl;
 		cout << "task7(pointsInStruct, 4, 'x') = " << task7(pointsInStruct, 4, 'x') << endl;
 		cout << "task6(points, 4, 'y') = " << task6(points, 4, 'y') << endl;
@@ -174,27 +195,34 @@ void task6And7Check() {
 	cout << "------------------------" << endl;
 }
 
+PointWithoutMass* сreateStructPoints(size_t n) {
+	PointWithoutMass* pointsInStruct = new PointWithoutMass[n];
+	for (size_t i = 0; i < n; ++i) {
+		pointsInStruct[i] = PointWithoutMass{ (double)(rand()) / RAND_MAX * 100 ,(double)(rand()) / RAND_MAX * 100,(double)(rand()) / RAND_MAX * 100 };
+	}
+	return pointsInStruct;
+}
+
 void task8Check() {
 	srand(time(NULL));
 	cout << "task 8 check" << endl;
 	cout << "------------------------" << endl;
 	//create array of structures
-	PointWithoutMass* pointsInStruct = new PointWithoutMass[4];
-	for (size_t i = 0; i < 4; ++i) {
-		pointsInStruct[i] = PointWithoutMass{ (double)(rand()) / RAND_MAX * 100 ,(double)(rand()) / RAND_MAX * 100,(double)(rand()) / RAND_MAX * 100 };
-	}
+	PointWithoutMass* pointsInStruct = сreateStructPoints(4);
 
 	try {
 		double* res = task8(pointsInStruct, massFunction, 4);
 		cout << "task8(pointsInStruct, massFunction, 4) = [" << res[0] << "," << res[1] << "," << res[2] << "]" << endl;
 		cout << "change points" << endl;
 
+		delete[] pointsInStruct;
+
 		//change points values
-		for (size_t i = 0; i < 4; ++i) {
-			pointsInStruct[i] = PointWithoutMass{ (double)(rand()) / RAND_MAX * 100 ,(double)(rand()) / RAND_MAX * 100,(double)(rand()) / RAND_MAX * 100 };
-		}
+		pointsInStruct = сreateStructPoints(4);
+
 		res = task8(pointsInStruct, massFunction, 4);
 		cout << "task8(pointsInStruct, massFunction, 4) = [" << res[0] << "," << res[1] << "," << res[2] << "]" << endl;
+
 	}
 	catch (int l) {
 		cout << "invalid argument " << l << endl;
@@ -214,27 +242,27 @@ void task9Check() {
 	//create Polynomials and count their values
 	double koefs[3] = { 1,1,1 };
 	Polynomial ax1 = Polynomial{ koefs, 3 };
-	cout <<"task9(x^2+x+1, 2) = "<< task9(ax1, 2) << endl;
+	cout <<"task9(" << ax1 << ", 2) = "<< task9(ax1, 2) << endl;
 
 	double koefs2[7] = {0,0,1,2,3,4,5 };
 	 ax1 = Polynomial{ koefs2, 7 };
-	cout << "task9(x^4+2x^3+3x^2+4x+5, 2) = " << task9(ax1, 2) << endl;
+	cout << "task9(" << ax1 << ", 2) = " << task9(ax1, 2) << endl;
 
 	double koefs3[3] = { 0,0,0 };
 	 ax1 = Polynomial{ koefs3, 3 };
-	cout << "task9(0*x^2+0*x+0, 2) = " << task9(ax1, 2) << endl;
+	cout << "task9(" << ax1 << ", 2) = " << task9(ax1, 2) << endl;
 
 	double koefs4[3] = { 1,1,1 };
 	ax1 = Polynomial{ koefs4, 3 };
-	cout << "task9(x^2+x+1, 0) = " << task9(ax1, 0) << endl;
+	cout << "task9(" << ax1 << ", 0) = " << task9(ax1, 0) << endl;
 
 	double koefs5[3] = { -1,2,-3 };
 	ax1 = Polynomial{ koefs5, 3 };
-	cout << "task9(-x^2+2x-3, -2) = " << task9(ax1, -2) << endl;
+	cout << "task9(" << ax1 << ", -2) = " << task9(ax1, -2) << endl;
 
 	double koefs6[3] = { 5.3,-1.2,4.4 };
 	ax1 = Polynomial{ koefs6, 3 };
-	cout << "task9(5.3*x^2-1.2*x+4.4, 0.4) = " << task9(ax1,0.4) << endl;
+	cout << "task9("<<ax1<<", 0.4) = " << task9(ax1,0.4) << endl;
 
 	cout << "------------------------" << endl;
 }
@@ -247,27 +275,16 @@ void task10Check() {
 	double koefs[3] = { 1,2,1 };
 	Polynomial ax1 = Polynomial{ koefs, 3 };
 
-	cout << ax1._koefs[0] << "*x^" << ax1._power - 1;
-	for (size_t i = 1; i <= ax1._power - 1; ++i) {
-		cout << " + " << ax1._koefs[i] << "*x^" << ax1._power - 1 - i;
-	}cout << endl;
+	cout << ax1<<endl;
 
 	double koefs1[4] = {2,2,-1,3 };
 	Polynomial ax2 = Polynomial{ koefs1, 4 };
 
-	cout << ax2._koefs[0] << "*x^" << ax2._power - 1;
-	for (size_t i = 1; i <= ax2._power - 1; ++i) {
-		cout << " + " << ax2._koefs[i] << "*x^" << ax2._power - 1 - i;
-	}cout << endl;
+	cout << ax2<<endl;
 
 	//sum result
 	Polynomial ax3 = ax2 + ax1;
-
-	cout<< ax3._koefs[0] << "*x^" << ax3._power-1;
-	for (size_t i = 1; i <=ax3._power-1;++i) {
-		cout <<" + "<< ax3._koefs[i] << "*x^" << ax3._power - 1-i;
-	}
-	cout << endl;
+	cout << ax3 << endl;;
 	cout << "------------------------" << endl;
 }
 

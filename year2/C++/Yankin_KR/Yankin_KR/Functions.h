@@ -10,3 +10,4 @@ double massFunction(const double x, const double y, const double z);
 double* task8(PointWithoutMass* points, double (*f)(double x, double y, double z), const size_t length);
 double task9(const Polynomial ax, const double x);
 const Polynomial operator+(const Polynomial& polynomial1, const Polynomial& polynomial2);
+std::ostream& operator<< (std::ostream& out, const Polynomial& polynom);
